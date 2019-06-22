@@ -9,6 +9,7 @@ int main(){
     char **p1;
     //char **p2;
     p1 = piso("piso1.txt");
+    iniciarmovimiento(p1,0,0);
     //p2 = piso("piso2.txt");
     free(p1);
     //free(p2);
